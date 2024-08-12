@@ -11,13 +11,10 @@ public class FridgeAlgorithm {
      * P.S All methods of interaction with the fridge can be found inside the {@see Fridge} class.
      */
     public void fridgeAlgorithm(Fridge fridge) {
-        
-        for(int i=0; i<fridge.length;i++){
-        if (fridge[i]="milk"){
-            return fridge[i];
-        }
-        
-        }
+        fridge.open();
+        fridge.getMilk();
+        fridge.close();
+
 
     }
 }
